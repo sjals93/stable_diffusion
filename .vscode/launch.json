@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "args": ["--prompt", "A fantasy landscape, trending on artstation", "--init-img", "images/000000029.png", "--strength", "0.8"]
+            // "args": ["--prompt", "uniform flat gray surface", "--init-img", "images/000000029.png", "--strength", "0.99999"]
+            "args": ["--prompt", "uniform flat gray surface", "--init-img", "images/horse.png", "--strength", "0.99999"]
+        }
+    ]
+}
